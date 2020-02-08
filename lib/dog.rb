@@ -4,11 +4,11 @@ require 'pry'
 
 class Dog
   def name=(text)
-    name = text
+    @name = text
   end
 
   def name
-    name
+    @name
   end
 
   def bark
