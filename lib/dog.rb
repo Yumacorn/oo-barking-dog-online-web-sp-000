@@ -1,7 +1,5 @@
 # Your code goes here!
 
-require 'pry'
-
 class Dog
   def name=(text)
     @name = text
@@ -15,5 +13,3 @@ class Dog
     puts "woof!"
   end
 end
-
-# binding.pry
